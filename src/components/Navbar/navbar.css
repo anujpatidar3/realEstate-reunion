@@ -1,0 +1,14 @@
+.navbar-button:active {
+    color: white;
+    background-color: rgba(26, 6, 6, 0.826);
+}
+
+.navbar-button:hover {
+    color: white;
+    background-color: rgba(26, 6, 6, 0.826);
+}
+
+.navbar-border {
+    border-bottom: 1px solid rgba(26, 6, 6, 0.826);
+    margin-bottom: 80px;
+}
