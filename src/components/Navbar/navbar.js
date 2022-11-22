@@ -14,7 +14,7 @@ function NavBar() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="white" variant="white" className="navbar-border">
       <Container>
-        <Navbar.Brand href="/">
+        <Navbar.Brand href="/" className="logo-size">
           <img src={logo} alt="logo" width={"20%"} />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
