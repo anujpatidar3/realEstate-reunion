@@ -21,7 +21,7 @@ const CardList = ({ houses }) => {
                 {
                     houses.map(item => {
                         return (
-                            <div key={item.name} className='col col-md-6 col-lg-4'>
+                            <div key={item.name} className='col col-12 col-md-6 col-lg-4'>
                                 <Card sx={{ maxWidth: 310 }} className="card-content-main justify-content-center">
                                     <CardMedia
                                         component="img"
